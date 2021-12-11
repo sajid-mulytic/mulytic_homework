@@ -1,7 +1,9 @@
 # Check whether the docker is installed or not.
 if [ -x "$(command -v docker)" ]; then
-    # To Uninstall the Docker Engine, CLI, and Containerd packages
-    echo "Uninstalling the Docker Engine, CLI, and Containerd packages"
+    # Docker is already installed.
+
+    # Uninstall the Docker Engine, CLI, and Containerd packages
+    echo "::::::::::::::::::: Uninstalling the Docker Engine, CLI, and Containerd packages :::::::::::::::"
     # sudo apt-get purge docker-ce docker-ce-cli containerd.io
 
     # # To delete all images, containers, and volumes
