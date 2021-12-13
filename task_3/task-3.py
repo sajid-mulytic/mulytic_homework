@@ -7,7 +7,7 @@ from elasticsearch import helpers
 
 # Settings for elasticsearch
 host = "localhost"
-port = 2048
+port = 2049
 
 # Settings for fake student data generation with Faker
 fake = Faker() # create instance of Faker
