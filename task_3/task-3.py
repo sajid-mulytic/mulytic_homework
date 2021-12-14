@@ -5,6 +5,7 @@ from faker import Faker
 from elasticsearch import Elasticsearch
 from elasticsearch import helpers
 
+
 # Settings for elasticsearch
 host = "localhost"
 port = 2049
@@ -84,6 +85,7 @@ def add_to_index(es_object, index_name, type_name):
 
 def data_adding_elasticsearch():
     """ This method will add data to elasticsearhc index if there is a successfull connection. """
+
     if es:
         # Add fake students data in Elasticsearch index.
         add_to_index(es, 'students', 'student detail')
