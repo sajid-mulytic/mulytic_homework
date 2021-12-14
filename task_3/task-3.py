@@ -96,7 +96,7 @@ def data_adding_elasticsearch():
 es = connect_elasticsearch(index_name='students')
 
 # initialize a job with scheduler
-schedule.every(5).minutes.do(data_adding_elasticsearch)
+schedule.every(10).minutes.do(data_adding_elasticsearch)
 
 # Start job
 while True:
