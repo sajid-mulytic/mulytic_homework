@@ -38,7 +38,7 @@ To change the version of the **Elasticsearch** and **Kibana** change on the end 
 
 ## Task - 2
 
-The directory task_2 contain the bash script to automate the running of **Elasticsearch** (on port `2048`) and **Kibana** (on port `4096`).
+The directory task_2 contain the bash script to automate the running of **Elasticsearch** (on port `2048`) and **Kibana** (on port `4096`). And provide the access through `http://localhost:2048` for **Elasticsearch** ; `http://localhost:4096` for **Kibana**.
 
 ### How to execute?
 
